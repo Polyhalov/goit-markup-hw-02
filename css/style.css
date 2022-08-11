@@ -77,6 +77,15 @@ body{
         letter-spacing: 0.06em;
         text-align: center;
 }
+.buttons{
+    background-color: var(--hover-color);
+    color: var(--white-color);
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 1.9;
+        letter-spacing: 0.06em;
+        text-align: center;
+}
 /* Section */
 .feature-title{
     color: var(--white-color);
@@ -154,3 +163,44 @@ body{
 .adres-nav .secondary-link:hover,
 .adres-nav .secondary-link:focus {
     color: var(--hover-color);}
+    /* Portfolio */
+    /* Portfolio nav */
+.portfolio-nav .filter{
+    background-color:var(--card-color);
+    color:var(--title-text-color);
+        font-size: 16px;
+        font-weight: 500;
+        line-height:1.6;
+        letter-spacing: 0.03em;
+        text-align: center;
+}
+.portfolio-nav .filter:hover,
+.portfolio-nav .filter:focus{
+    background-color: var(--hover-color);
+    color: var(--white-color);
+    
+}
+.portfolio-title{
+    color: #FFFFFF;
+}
+.portfolio-list{
+    text-decoration: none;
+}
+.portfolio-card .card-link{
+    text-decoration: none; 
+}
+.card-name{
+    font-family: Roboto;
+        font-size: 18px;
+        line-height: 2;
+        letter-spacing: 0.06em;
+        text-align: left;
+        color: var(--title-text-color);
+}
+.card-item{
+        font-size: 16px;
+        line-height: 1.87;
+        letter-spacing: 0.03em;
+        text-align: left;
+        color: var(--outlink-color)
+}

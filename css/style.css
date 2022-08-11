@@ -87,9 +87,7 @@ body{
         text-align: center;
 }
 /* Section */
-.feature-title{
-    color: var(--white-color);
-}
+
 .feature-list .title{
         font-size: 14px;
         line-height: 1.14;
@@ -180,8 +178,17 @@ body{
     color: var(--white-color);
     
 }
-.portfolio-title{
-    color: #FFFFFF;
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
 }
 .portfolio-list{
     text-decoration: none;

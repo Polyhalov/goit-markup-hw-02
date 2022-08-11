@@ -1,10 +1,16 @@
 :root{
     --title-text-color:#212121;
     --white-color:#FFFFFF; 
+    --hover-color:#2196F3;
+    --outlink-color:#757575;
+    --black-color:#000000;
+    --footer-color:#2F303A;
+    --card-color:#F5F4FA;
+    --footer-adres:#FFFFFF99;
 }
 body{
     background-color:var(--white-color);
-    color: #757575;   
+    color:var(--outlink-color);   
     font-family: Roboto, sans-serif;
     font-size: 14px;
     line-height: 1.71;
@@ -19,7 +25,7 @@ body{
         letter-spacing: 0.03em;
         text-align: left;
         text-decoration: none;
-    color: #2196F3;
+    color: var(--hover-color)
 }
 .logo2{
     font-family: Raleway;
@@ -27,7 +33,7 @@ body{
         line-height: 1.19;
         letter-spacing: 0.03em;
         text-align: left;
-        color: #000000;
+        color: var(--black-color)
 }
 /* Site nav */
 .site-nav .link {
@@ -41,13 +47,13 @@ body{
 }
 .site-nav .link:hover,
 .site-nav .link:focus{
-    color: #2196F3;
+    color: var(--hover-color)
 }
 .site-nav .link.current{
-    color: #2196F3;
+    color: var(--hover-color)
 }
 .outsite-nav .secondary-link{
-    color: #757575;
+    color: var(--outlink-color);
         font-size: 14px;
         font-weight: 500;
         line-height: 1.14;
@@ -57,14 +63,14 @@ body{
 }
 .outsite-nav .secondary-link:hover,
 .outsite-nav .secondary-link:focus{
-    color: #2196F3;
+    color:var(--hover-color)
 }
 /* Hero */
 .hero{
-    background-color: #2F303A;
+    background-color:var(--footer-color);
 }
 .hero-title{
-    color: #FFFFFF;
+    color:var(--white-color);
         font-size: 44px;
         font-weight: 900;
         line-height: 1.36;
@@ -73,7 +79,7 @@ body{
 }
 /* Section */
 .feature-title{
-    color: #FFFFFF;
+    color: var(--white-color);
 }
 .feature-list .title{
         font-size: 14px;
@@ -92,7 +98,7 @@ body{
 }
 /* Team */
 .team{
-    background-color: #F5F4FA;
+    background-color:var(--card-color);
 }
 .team-title{
     color: var(--title-text-color);
@@ -109,7 +115,7 @@ body{
         letter-spacing: 0.03em;
 }
 .team-list .card{
-    background-color: #FFFFFF;
+    background-color:var(--white-color);
 }
 .team-list .item{
         font-size: 16px;
@@ -118,33 +124,33 @@ body{
 }
 /* Footer */
 .downpage{
-    background-color: #2F303A;
+    background-color:var(--footer-color);
 }
 .downpage .logo{
         font-family: Raleway;
         font-size: 26px;
         line-height: 1.19;
         letter-spacing: 0.03em;
-        color: #2196F3;
-        text-decoration: none;
+        color:var(--hover-color);
+        text-decoration:none;
     }
 .downpage .logo2{
     font-family: Raleway;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    color:#FFFFFF;
+    color:var(--white-color);
     text-decoration: none;
 }
 .adres-nav{
-    color: #FFFFFF;
+    color: var(--white-color);
     font-style: normal;
 } 
 .adres-nav .secondary-link{
-    color: #FFFFFF99;
+    color:var(--footer-adres);
     text-decoration: none;
     
 }
 .adres-nav .secondary-link:hover,
 .adres-nav .secondary-link:focus {
-    color: #2196F3;}
+    color: var(--hover-color);}

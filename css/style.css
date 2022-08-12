@@ -7,6 +7,7 @@
     --footer-color:#2F303A;
     --card-color:#F5F4FA;
     --footer-adres:#FFFFFF99;
+    --button-back-color:#188CE8;
 }
 body{
     background-color:var(--white-color);
@@ -14,6 +15,7 @@ body{
     font-family: Roboto, sans-serif;
     font-size: 14px;
     line-height: 1.71;
+    letter-spacing: 0.03em;
 }
 .list{
     list-style: none;
@@ -37,7 +39,6 @@ body{
 }
 /* Site nav */
 .site-nav .link {
-        font-style: normal;
         font-weight: 500;
         font-size: 14px;
         line-height: 1.14;
@@ -76,10 +77,12 @@ body{
         line-height: 1.36;
         letter-spacing: 0.06em;
         text-align: center;
+        text-transform: uppercase;
 }
 .buttons{
     background-color: var(--hover-color);
     color: var(--white-color);
+        font-family: Roboto;
         font-size: 16px;
         font-weight: 700;
         line-height: 1.9;
@@ -87,13 +90,17 @@ body{
         text-align: center;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
          border-radius: 4px;
+         cursor: pointer;
+}
+.buttons:hover,
+.buttons:focus{
+    background-color:var(--button-back-color)
 }
 /* Section */
 
 .feature-list .title{
         font-size: 14px;
         line-height: 1.14;
-        letter-spacing: 0.03em;
         text-transform: uppercase;
     color:var(--title-text-color);
 }
@@ -103,7 +110,6 @@ body{
     font-size: 36px;
         line-height: 1.17;
         text-align: center;
-        letter-spacing: 0.03em;
 }
 /* Team */
 .team{
@@ -114,14 +120,12 @@ body{
     font-size: 36px;
         line-height: 1.17;
         text-align: center;
-        letter-spacing: 0.03em;
 }
 .team-list .title{
     color: var(--title-text-color);
     font-weight: 500;
         font-size: 16px;
         line-height: 1.19;
-        letter-spacing: 0.03em;
 }
 .team-list .card{
     background-color:var(--white-color);
@@ -129,7 +133,6 @@ body{
 .team-list .item{
         font-size: 16px;
         line-height: 1.19;
-        letter-spacing: 0.03em;
 }
 /* Footer */
 .downpage{
@@ -168,12 +171,14 @@ body{
 .portfolio-nav .filter{
     background-color:var(--card-color);
     color:var(--title-text-color);
+        font-family: Roboto;
         font-size: 16px;
         font-weight: 500;
         line-height:1.6;
         letter-spacing: 0.03em;
         text-align: center;
         border-radius: 4px;
+        cursor: pointer;
 }
 .portfolio-nav .filter:hover,
 .portfolio-nav .filter:focus{
@@ -200,7 +205,6 @@ body{
     text-decoration: none; 
 }
 .card-name{
-    font-family: Roboto;
         font-size: 18px;
         line-height: 2;
         letter-spacing: 0.06em;
@@ -210,7 +214,6 @@ body{
 .card-item{
         font-size: 16px;
         line-height: 1.87;
-        letter-spacing: 0.03em;
         text-align: left;
         color: var(--outlink-color)
 }
